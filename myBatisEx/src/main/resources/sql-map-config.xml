@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org/DTD Config 3.0/EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	
+	<settings>
+		<setting name="logImpl" value="STDOUT_LOGGING"/>
+	</settings>
+	
+	<!-- Alias 설정 -->
+	<typeAliases><!-- typeAlias는 resultMap에서 사용할 것들을 여기다 선언해두고 resultMap에서 사용한다. -->
+		<typeAlias alias="board" type="kr.ac.seoil.boardWeb.board.vo.BoardVO"/>
+		<typeAlias alias="user" type="kr.ac.seoil.boardWeb.user.vo.UserVO"/>
+	</typeAliases>
+	
+	
+	<!-- Sql Mapper 설정 -->
+	<mappers>
+		<mapper resource="mappings/board-mapping.xml"/>
+	</mappers>
+</configuration>
