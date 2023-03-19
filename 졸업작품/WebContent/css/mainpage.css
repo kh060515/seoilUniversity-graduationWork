@@ -1,0 +1,109 @@
+@charset "EUC-KR";
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.banner {
+	position: relative;
+	top: 0px;
+	width: 1920px;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+.banner ul {
+	position: absolute;
+	width: 1920px;
+	top: 0px;
+	margin: 0px;
+	padding: 0;
+	list-style: none;
+	margin: 0px;
+	top: 0px;
+}
+
+.banner ul li {
+	float: left;
+	width: 1920px;
+	height: 600px;
+	top: 0px;
+	margin: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.add_menu_list {
+	width: 380px;
+	margin: 0 auto;
+	margin-top: 40px;
+	height: 38px;
+}
+
+.add_menu_list ul.submenu li {
+	float: left;
+}
+
+.add_menu_list ul.submenu li a {
+	font-size: 16px;
+	color: #7f7e7e;
+	font-weight: bold;
+	padding: 10px 15px;
+	letter-spacing: -0.5px;
+}
+
+.add_menu_list {
+	width: 100%;
+}
+
+.add_menu_list ul.submenu {
+	display: inline-block;
+}
+
+.add_menu_list {
+	margin-top: -30px;
+}
+
+.add_menu_list ul.submenu li a {
+	padding-top: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none !important
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none !important
+}
+
+.font-22 {
+	font-size: 22px !important
+}

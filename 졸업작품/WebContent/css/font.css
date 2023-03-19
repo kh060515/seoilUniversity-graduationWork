@@ -1,0 +1,10 @@
+@charset "utf-8";
+/*! Nanum Barun Gothic (Korean) http://hangeul.naver.com */
+@font-face{font-weight:400;font-style:normal;font-family:ng;src:url(./font/NanumGothic-Regular.eot);src:url(./font/NanumGothic-Regular.eot?#iefix) format("embedded-opentype"),url(./font/NanumGothic-Regular.woff2) format("woff2"),url(./font/NanumGothic-Regular.woff) format("woff"),url(./font/NanumGothic-Regular.ttf) format("truetype")}
+@font-face{font-weight:700;font-style:normal;font-family:ng;src:url(./font/NanumGothic-Bold.eot);src:url(./font/NanumGothic-Bold.eot?#iefix) format("embedded-opentype"),url(./font/NanumGothic-Bold.woff2) format("woff2"),url(./font/NanumGothic-Bold.woff) format("woff"),url(./font/NanumGothic-Bold.ttf) format("truetype")}
+@font-face{font-weight:900;font-style:normal;font-family:ng;src:url(./font/NanumGothic-ExtraBold.eot);src:url(./font/NanumGothic-ExtraBold.eot?#iefix) format("embedded-opentype"),url(./font/NanumGothic-ExtraBold.woff2) format("woff2"),url(./font/NanumGothic-ExtraBold.woff) format("woff"),url(./font/NanumGothic-ExtraBold.ttf) format("truetype")}
+
+/*! NEXON Gothic */
+@font-face {font-family: 'NEXONLv1GothicRegular';src: url("./font/NEXONLv1GothicOTF.eot");src: url("./font/NEXONLv1GothicOTF.eot?#iefix") format("embedded-opentype"), url("./font/NEXONLv1GothicOTF.woff") format("woff"), url("./font/NEXONLv1GothicRegular.ttf") format("truetype"), url("./font/NEXONLv1GothicRegular.svg#webfont") format("svg");}
+@font-face {font-family: 'NEXONLv1GothicOTFLight';src: url("./font/NEXONLv1GothicOTFLight.eot");src: url("./font/NEXONLv1GothicOTFLight.eot?#iefix") format("embedded-opentype"), url("./font/NEXONLv1GothicOTFLight.woff") format("woff"), url("./font/NEXONLv1GothicLight.ttf") format("truetype"), url("./font/NEXONLv1GothicLight.svg#webfont") format("svg");}
+@font-face {font-family: 'NEXONLv1GothicOTFBold';src: url("./font/NEXONLv1GothicOTFBold.eot");src: url("./font/NEXONLv1GothicOTFBold.eot?#iefix") format("embedded-opentype"), url("./font/NEXONLv1GothicOTFBold.woff") format("woff"), url("./font/NEXONLv1GothicBold.ttf") format("truetype"), url("./font/NEXONLv1GothicBold.svg#webfont") format("svg");}

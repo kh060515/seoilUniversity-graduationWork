@@ -1,0 +1,16 @@
+@charset "utf-8";
+/*! reset */
+fieldset,img{border:0}
+body,legend{color:#28313d}
+html{background:#fff;color:#000;font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+article,aside,audio,blockquote,body,canvas,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,input,legend,li,mark,menu,nav,ol,p,pre,section,summary,td,textarea,th,time,ul,video{margin:0;padding:0}
+body{background-color:#fff;font-size:12px;font-family:ng,Dotum,"돋움",Gulim,"굴림","Helvetica Neue",Helvetica,Arial,Verdana,Tahoma,sans-serif!important;line-height:1.4}
+img{vertical-align:middle}
+button,input,select,textarea{margin:0;font-size:100%;vertical-align:middle}
+table{border-spacing:0;border-collapse:collapse}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight:400;font-style:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:100%;line-height:1.4}
+caption,hr,legend{width:0;height:0;font-size:1px;text-indent:-9999em;line-height:0}
+a,a:active,a:focus,a:hover,a:link,a:visited{color:#28313d;font-size:100%;text-decoration:none}

@@ -1,0 +1,190 @@
+@charset "utf-8";
+.gnbWrapper div, .gnbWrapper span, .gnbWrapper h1, .gnbWrapper h2, .gnbWrapper h3, .gnbWrapper h4, .gnbWrapper p, .gnbWrapper a, .gnbWrapper img, .gnbWrapper strong, .gnbWrapper dl, .gnbWrapper dt, .gnbWrapper dd, .gnbWrapper ol, .gnbWrapper ul, .gnbWrapper li {margin:0;padding:0;border:0;font-size:11px;text-indent:0;vertical-align:baseline;visibility:visible;background:transparent;font-family:"돋움","dotum","Trebuchet MS","Lucida Grande","Tahoma","Helvetica","Arial",sans-serif;color:#7a7a7a;}
+.gnbWrapper ol, .gnbWrapper ul {list-style:none;}
+
+.gnbWrapper input, .gnbWrapper button {font:11px "돋움","dotum","Trebuchet MS","Lucida Grande","Tahoma","Helvetica","Arial",sans-serif;color:#7a7a7a;}
+.gnbWrapper a {color:#7a7a7a;text-decoration:none !important;line-height:15px;}
+.gnbWrapper a:hover {color:#7a7a7a;text-decoration:none !important;}
+
+/* float clear */
+.gnbWrapper .gnbFloatClear {*zoom:1;}
+.gnbWrapper .gnbFloatClear:after {content:"";clear:both;display:block;} 
+
+/* 넥슨플레이 로그인 이벤트 */
+body, html {margin:0;padding:0;}
+button {border:0;padding:0;background:transparent;cursor:pointer;*overflow:visible;}
+button::-moz-focus-inner {padding:0;border:0;}
+.layerNXPlay img {display:block;border:0;}
+.gnbDimmed {position:fixed;z-index:10000;width:100%;height:100%;background-color:#000000;opacity:0.6;filter:alpha(opacity=60);margin:0;padding:0;left:0;}
+.layerNXPlay {position:absolute;top:80px;z-index:20000;width:587px;height:730px;padding:30px 0 0 22px;background:url(http://s.nx.com/s2/p3/event/2014/05/26_nexonplay/bg_layer.png) no-repeat left top;}
+.layerNXPlay .closeBt {position:absolute;top:46px;right:49px;}
+.checkSec {position:absolute;top:703px;left:35px;}
+
+/* 타겟메세지 */
+.gnbWrapper .gnbBannerSec, .gnbWrapper .gnbBannerImg {position:relative;z-index:50;}
+.gnbWrapper .gnbBanner {overflow:hidden;position:absolute;top:-40px;right:-125px;width:116px;height:40px;}
+.gnbWrapper .gnbBannerOn {right:-126px;border-left:1px solid #999999;border-right:1px solid #999999;background-color:#ffffff;}
+.gnbWrapper .gnbBanner img {position:absolute;top:0;left:0;}
+.gnbWrapper .gnbBannerMsgSec {position:relative;z-index:20;}
+.gnbWrapper .gnbBannerMsg {position:absolute;top:-1px;right:-126px;width:390px;height:190px;background-color:#ffffff;border:1px solid #999999;}
+.gnbWrapper .gnbBannerMsg .stit {width:358px;height:27px;margin:11px 0 0 16px;border-bottom:1px solid #e0e0e0;}
+.gnbWrapper .gnbBannerMsg .npinfoSec {position:relative;z-index:100;}
+.gnbWrapper .gnbBannerMsg .npinfo {position:absolute;top:-26px;left:197px;*top:-28px;}
+.gnbWrapper .gnbBannerMsg .npinfo img {vertical-align:top;}
+.gnbWrapper .gnbBannerMsg .npinfo button {width:14px;height:14px;}
+.gnbWrapper .gnbBannerMsg .npinfoTxt {display:none;position:absolute;top:16px;left:-60px;}
+.gnbWrapper .gnbBannerMsg .bnImg {position:absolute;top:60px;left:16px;}
+.gnbWrapper .gnbBannerMsg .bnBt {position:absolute;top:136px;left:137px;background:url(http://s.nx.com/S2/p3/main/bg_bt.jpg) no-repeat left top;}
+.gnbWrapper .gnbBannerMsg .bnBt a {display:inline-block;height:27px;padding:8px 15px 0 14px;background:url(http://s.nx.com/S2/p3/main/bg_bt_r.jpg) no-repeat right top;color:#ffffff;font:bold 12px "돋움","dotum" !important;font-size:1em;line-height:1.335;font-size:12px;font-weight:bold;}
+.gnbWrapper .gnbBannerMsg .bnTxt {width:356px;height:26px;margin:0 auto;padding-top:12px;color:#333333;letter-spacing:-1px;font-weight:bold;background-color:#fffde2;border:1px solid #e0e0e0;border-top:0;text-align:center;font-size:1em;line-height:1.335;font-size:12px;}
+.gnbWrapper .gnbBannerMsg .npLink {position:absolute;top:88px;left:16px;}
+.gnbWrapper .gnbBannerMsg .npLink img {float:left;margin-right:6px;}
+.gnbWrapper .gnbBannerMsg .urlTxt {position:absolute;top:88px;left:118px;color:#777777;font-size:11px;letter-spacing:-2px;}
+.gnbWrapper .gnbBannerMsg .urlTxt span.urlStit {display:block;padding:0 5px 3px 0;font-weight:bold;}
+.gnbWrapper .gnbBannerMsg .urlTxt span.agree {position:relative;display:block;width:209px;margin:3px 0 0 -3px;padding:0 0 0 3px;color:#888888;*margin-top:0;}
+.gnbWrapper .gnbBannerMsg .urlTxt span.agree input {vertical-align:middle;margin:0;padding:0;}
+.gnbWrapper .gnbBannerMsg .urlTxt span.agree img {margin:0;padding:0;}
+.gnbWrapper .gnbBannerMsg .urlTxt span.agree button {position:absolute;top:-2px;right:3px;margin:0;padding:0;*top:2px;}
+.gnbWrapper .gnbBannerMsg .phoneNumber {position:absolute;top:146px;left:118px;width:156px;height:29px;background:url(http://s.nx.com/S2/p3/main/bg_input.gif) no-repeat left top;}
+.gnbWrapper .gnbBannerMsg .phoneNumber input {width:145px;margin:8px 0 0 9px;border:0;background-color:#f6f6f6;color:#acacac;}
+.gnbWrapper .gnbBannerMsg .bnBt2 {top:146px;left:269px;}	
+.gnbBannerSec .gnbBannerFrame {display:none;position:absolute;top:-1px;right:-126px;width:390px;height:190px;background-color:#ffffff;border:1px solid #999999;*top:39px;}
+.gnbCurrent .gnbBannerFrame {display:block;}
+.gnbBannerSec .gnbBannerMsg {display:none;position:absolute;top:-1px;right:-126px;width:390px;height:190px;background-color:#ffffff;border:1px solid #999999;z-index:40000;}
+.gnbCurrent .gnbBannerMsg {display:block;}
+.layerGnbBanner {position:relative;z-index:20000;width:612px;height:724px;background:url(http://s.nx.com/S2/p3/main/bg_layer.png) no-repeat left top;font:12px "malgun gothic","나눔고딕","NanumGothic","돋움","dotum","Segoe WP","Helvetica","sans serif";}
+.layerGnbBanner img {border:0;}
+.layerGnbBanner input {font:12px "malgun gothic","나눔고딕","NanumGothic","돋움","dotum","Segoe WP","Helvetica","sans serif";}
+.layerGnbBanner .closeBt {position:absolute;top:20px;right:-12px;}
+.layerGnbBanner .gnbBannerImg {width:550px;height:450px;margin:0 auto;padding-top:29px;}
+.layerGnbBanner .gnbBannerImg img {vertical-align:top;}
+.layerGnbBanner .gnbBannerBt {width:550px;height:72px;margin:0 auto;padding-top:12px;text-align:center;}
+.layerGnbBanner .gnbBannerBt a {display:inline-block;height:48px;padding:0 0 0 30px;color:#ffffff;font-size:20px;background:url(http://s.nx.com/S2/p3/main/bg_bt1.jpg) no-repeat left top;text-decoration:none;font-weight:bold;letter-spacing:-1px;cursor:pointer;}
+.layerGnbBanner .gnbBannerBt a span {display:inline-block;height:42px;padding:6px 31px 0 0;background:url(http://s.nx.com/S2/p3/main/bg_bt2.jpg) no-repeat right top;}
+.layerGnbBanner .phoneInfo {position:relative;width:520px;height:130px;margin:7px 0 0 50px;padding:0;}
+.layerGnbBanner .phoneInfo .bnBt {position:absolute;top:70px;left:324px;background:url(http://s.nx.com/S2/p3/main/bg_bt.jpg) no-repeat left top;margin:0;padding:0;}
+.layerGnbBanner .phoneInfo .bnBt a {display:inline-block;height:29px;padding:5px 15px 0 14px;background:url(http://s.nx.com/S2/p3/main/bg_bt_r.jpg) no-repeat right top;font-weight:bold;text-decoration:none;color:#ffffff;font-size:12px;margin:0;}
+.layerGnbBanner .phoneInfo .bnTxt {position:absolute;top:0px;left:16px;color:#333333;font-size:14px;letter-spacing:-1px;font-weight:bold;margin:0;padding:0;}
+.layerGnbBanner .phoneInfo .npLink {position:absolute;top:31px;left:16px;margin:0;padding:0;}	
+.layerGnbBanner .phoneInfo .npLink img {float:left;margin-right:6px;}
+.layerGnbBanner .phoneInfo .urlTxt {position:absolute;top:28px;left:168px;color:#555555;margin:0;padding:0;}
+.layerGnbBanner .phoneInfo .urlTxt span {position:relative;display:block;margin-left:-3px;padding:4px 0 0 0px;color:#888888;font-size:11px;letter-spacing:-1px;}
+.layerGnbBanner .phoneInfo .urlTxt span input, .layerGnbBanner .phoneInfo .urlTxt span button {vertical-align:middle;}
+.layerGnbBanner .phoneInfo .urlTxt span label {padding-right:5px;}
+.layerGnbBanner .phoneInfo .phoneNumber {position:absolute;top:70px;left:168px;width:156px;height:29px;background:url(http://s.nx.com/S2/p3/main/bg_input.gif) no-repeat left top;margin:0;padding:0;}
+.layerGnbBanner .phoneInfo .phoneNumber input {width:145px;margin:5px 0 0 9px;border:0;background-color:#f6f6f6;color:#acacac;}
+.layerGnbBannerFrame {position:absolute;width:632px;height:724px;padding:0 1px;background-color:#ffffff;}
+.gnbCurrent .layerGnbBannerFrame  {display:block;z-index:100;}
+	
+/* GNB */
+.gnbWrapper {position:relative;display:block !important;width:100%;height:40px;line-height:15px;z-index:9999999;text-align:center;letter-spacing:0;background:transparent url(http://s.nx.com/S2/p3/gnb/bg_body.gif) repeat-x 0 0;}
+.gnbWrapper .gnbBar {width:980px;height:40px;margin:0 auto;text-align:left;}
+.gnbWrapper .gnbBarMargin {position:relative;width:980px;height:40px;}
+.gnbWrapper h1.gnbLogo {width:128px;height:40px;display:block;}
+	.gnbWrapper .gnbLogo a {display:block;width:128px;height:40px;background:transparent url(http://s.nx.com/S2/p3/gnb/set_bt.gif) no-repeat 0 0;}
+	.gnbWrapper .gnbLogo span {position:absolute;z-index:-1;visibility:hidden;}
+.gnbWrapper .gnbNav {position:absolute;top:0;left:127px;width:260px;height:40px;}
+	.gnbWrapper li {line-height:15px;}
+	.gnbWrapper li.gnbGame,
+	.gnbWrapper li.gnbMobil,
+	.gnbWrapper li.gnbService {position:absolute;top:0;}
+	.gnbWrapper li.gnbGame {left:0;width:673px;}
+	.gnbWrapper li.gnbMobil {left:86px;width:209px;}
+	.gnbWrapper li.gnbService {left:172px;width:258px;}
+	.gnbWrapper .gnbNav h2 {display:block;position:absolute;top:0;left:0;width:87px;height:40px;}
+	.gnbWrapper .gnbNav h2 a {display:block;width:87px;height:40px;background:transparent url(http://s.nx.com/S2/p3/gnb/set_bt.gif) no-repeat 0 -200px;}
+	.gnbWrapper .gnbNav h2 a span {position:absolute;z-index:-1;visibility:hidden;}
+	.gnbWrapper h2.gnbGame a {background-position:0 -200px;}
+	.gnbWrapper h2.gnbMobil a {background-position:-86px -200px;}
+	.gnbWrapper h2.gnbService a {background-position:-172px -200px;}
+	.gnbWrapper .gnbCurrent {z-index:10;}
+	.gnbWrapper .gnbCurrent h2 {z-index:1000;}
+	.gnbWrapper .gnbCurrent h2.gnbGame a {background-position:0 -300px;}
+	.gnbWrapper .gnbCurrent h2.gnbMobil a {background-position:-86px -300px;}
+	.gnbWrapper .gnbCurrent h2.gnbService a {background-position:-172px -300px;}
+	.gnbWrapper .gnbGameFrame {display:none;position:absolute;top:39px;left:0;width:671px;padding:0 1px;height:255px;background-color:#ffffff;}
+	.gnbWrapper .gnbGamelist {display:none;position:absolute;top:39px;left:0;width:671px;border:1px solid #999999;background-color:#ffffff;z-index:40000;}
+		.gnbGamelist .gnbRpg {width:147px;height:252px;}
+		.gnbGamelist .gnbArpg {position:absolute;top:0;left:148px;width:147px;height:252px;border-left:1px solid #dfdfe1;}
+		.gnbGamelist .gnbFps {position:absolute;top:0;left:296px;width:187px;height:252px;border-left:1px solid #dfdfe1;}
+		.gnbGamelist .gnbSports {position:absolute;top:0;left:484px;width:187px;height:252px;border-left:1px solid #dfdfe1;}
+		.gnbGamelist .gnbCasual {position:absolute;top:135px;left:148px;width:147px;height:117px;border-top:1px solid #dfdfe1;}
+		.gnbGamelist .gnbAos {position:absolute;top:135px;left:296px;width:187px;height:117px;border-top:1px solid #dfdfe1;}
+		.gnbGamelist .gnbWeb {position:absolute;top:135px;left:484px;width:187px;height:117px;border-top:1px solid #dfdfe1;}
+		.gnbGamelist h3.gnbMtit {display:block;height:15px;padding:11px 0 11px 15px;line-height:15px;font-size:11px;font-weight:bold;color:#e1493a;font-family:Tahoma;}
+		.gnbGamelist ul {padding:0 14px;line-height:14px;}
+		.gnbGamelist .gnbGenre li {height:14px;padding:2px 0 2px;line-height:14px;letter-spacing:-1px;}
+		.gnbGamelist .gnbGenre li a {background-color:#ffffff;color:#7a7a7a;font-size:11px;}
+		.gnbGamelist .gnbGenre li a:link {color:#7a7a7a;}
+		.gnbGamelist .gnbGenre img {vertical-align:middle;margin:0 0 3px 3px;}
+	.gnbWrapper .gnbMobilFrame {display:none;position:absolute;top:39px;left:0;width:171px;height:207px;padding:1px;background-color:#ffffff;}
+	.gnbWrapper .gnbMobilGame {display:none;position:absolute;top:39px;left:0;width:171px;height:207px;border:1px solid #999999;background-color:#ffffff;}
+		.gnbMobilGame h3.gnbMtit {display:block;height:15px;padding:13px 0 7px 14px;line-height:15px;font-size:11px;font-weight:bold;color:#e1493a;}
+		.gnbMobilGame ul {padding:0 14px;line-height:14px;}
+		.gnbMobilGame li {height:14px;padding:2px 0 2px;line-height:14px;}
+		.gnbMobilGame li a {background-color:#ffffff;color:#7a7a7a;font-size:11px;}
+		.gnbMobilGame li a:link {color:#7a7a7a;}
+		.gnbMobilGame .gnbBtAll {position:absolute;top:13px;left:145px;display:block;width:11px;height:11px;}
+		.gnbMobilGame .gnbBtAll a {display:block;width:11px;height:11px;background:transparent url(http://s.nx.com/S2/p3/gnb/set_bt.gif) no-repeat 0 -400px;}
+		.gnbMobilGame .gnbBtAll a span {position:absolute;z-index:-1;visibility:hidden;}
+	.gnbWrapper .gnbServiceFrame {display:none;position:absolute;top:39px;left:-171px;width:256px;height:109px;padding:1px;background-color:#ffffff;}
+	.gnbWrapper .gnbServicelist {display:none;position:absolute;top:39px;left:-171px;width:256px;height:109px;border:1px solid #999999;background-color:#ffffff;}
+		.gnbServicelist ul {margin:10px 0 0 15px;}
+		.gnbServicelist li {float:left;width:75px;padding:5px 0 4px;line-height:10px;}
+		.gnbServicelist img {vertical-align:middle;margin:0 4px 3px 0;}
+		.gnbServicelist a {letter-spacing:-1px;background-color:#ffffff;color:#7a7a7a;font-size:11px;}
+		.gnbServicelist a:link {color:#7a7a7a;}
+	.gnbWrapper .gnbCurrent .gnbGameFrame,
+	.gnbWrapper .gnbCurrent .gnbMobilFrame,
+	.gnbWrapper .gnbCurrent .gnbServiceFrame,
+	.gnbWrapper .gnbCurrent .gnbGamelist,
+	.gnbWrapper .gnbCurrent .gnbMobilGame,
+	.gnbWrapper .gnbCurrent .gnbServicelist, .gnbWrapper .gnbCurrent .gnbSubNavInfo {display:block;z-index:100;}
+.gnbWrapper .gnbLogin {position:absolute;top:12px;right:-4px;text-align:right;}
+	.gnbLogin .gnbMsgLogin {position:absolute;top:1px;right:70px;}
+	.gnbNexonType .gnbMsgLogin {position:absolute;top:2px;right:88px;}
+		.gnbLogin .gnbMsgLogin h2 {position:absolute;z-index:-1;visibility:hidden;}
+		.gnbLogin .gnbMsgTit button {display:-moz-inline-stack;display:inline-block;height:18px;margin:0;padding:0 16px 0 0;line-height:16px;color:#95969e;*text-align:right;cursor:pointer;_cursor:hand;text-decoration:none !important;border:0;white-space:nowrap;background:transparent url(http://s.nx.com/S2/p3/gnb/set_bt.gif) no-repeat right -399px;*overflow:visible;}
+		.gnbCurrent .gnbMsgTit button {background-position:right -499px;}
+		.gnbLogin .gnbMsgTit button img {margin:0 4px 3px 0;vertical-align:middle;}
+	.gnbLogin .gnbUserFrame {display:none;position:absolute;top:20px;right:0;width:132px;height:76px;padding:1px;background-color:#ffffff;}
+	.gnbCurrent .gnbUserFrame {display:block;}
+	.gnbLogin .gnbUserInfo {display:none;position:absolute;top:20px;right:0;width:132px;height:76px;border:1px solid #666666;background-color:#ffffff;text-align:left;z-index:999999;}
+	.gnbCurrent .gnbUserInfo {display:block;}
+		.gnbLogin .gnbUserInfo ul {padding-top:9px;}
+		.gnbLogin .gnbUserInfo li {height:15px;padding:0 15px 7px 9px;line-height:15px;color:#666666;white-space:nowrap;}
+		.gnbLogin .gnbUserInfo li .num a {color:#e1493a;font-weight:bold;background-color:#ffffff;}
+		.gnbLogin .gnbUserInfo li .num a:link {color:#e1493a;}
+	.gnbWrapper .gnbButton,
+	.gnbWrapper .gnbButton a,
+	.gnbWrapper .gnbButton button {position:relative;height:18px;line-height:10px;margin:0;padding:0;display:-moz-inline-stack;display:inline-block;text-decoration:none !important;font-weight:normal !important;border:0;white-space:nowrap;vertical-align:top;overflow:visible;}
+	.gnbWrapper .gnbButton {margin-right:4px;background:transparent url(http://s.nx.com/S2/p3/gnb/set_bt.gif) no-repeat left -600px;}
+	.gnbWrapper .gnbButton a,
+	.gnbWrapper .gnbButton button {padding:0 5px;cursor:pointer;_cursor:hand;background:transparent url(http://s.nx.com/S2/p3/gnb/set_bt.gif) no-repeat right -700px;}
+	.gnbWrapper .gnbButton a:link {color:#7a7a7a;}
+	.gnbWrapper .gnbButton a span,
+	.gnbWrapper .gnbButton button span {width:auto;display:inline-block !important;line-height:10px;text-indent:0;padding-top:5px;height:13px;overflow:hidden;vertical-align:bottom;}
+	.gnbWrapper .gnbButton a span {_height:18px;}
+	.gnbWrapper .gnbButton button span {_padding-top:0;}
+	.gnbWrapper .gnbBtModi {position:absolute;top:7px;right:6px;}
+	.gnbWrapper .gnbBtView {position:absolute;top:28px;right:6px;}
+	.gnbWrapper .gnbBtChar {position:absolute;top:49px;right:6px;}
+	.gnbWrapper .gnbBtLogout button {width:55px;}
+	.gnbWrapper .gnbBtLogin button {width:43px;}
+	.gnbWrapper .gnbNexonType .gnbBtLogout button {width:77px;}
+	.gnbWrapper .gnbNexonType .gnbBtLogin button {width:65px;}
+	.gnbWrapper .gnbBtJoin {display:inline-block;padding:3px 9px 0 0;vertical-align:top;font-weight:normal !important;}
+	.gnbWrapper .gnbBtJoin a span {color:#666666;font-weight:normal !important;}
+	.gnbWrapper .gnbBtJoin a:link span {color:#666666;font-weight:normal !important;}
+.gnbWrapper .gnbSub {position:absolute;top:14px;right:220px;text-align:right;width:315px;}
+.gnbWrapper .gnbSub ul li.subNav {position:relative;float:left;padding-right:7px;letter-spacing:-1px;}
+.gnbWrapper .gnbSub ul li.subNav img {vertical-align:middle;margin:0 0 3px 1px;}
+.gnbWrapper .gnbSub ul li.subNav button {display:-moz-inline-stack;display:block;width:50px;letter-spacing:-1px;margin:0;margin-top:-1px;padding:0 16px 0 0;line-height:16px;*text-align:right;cursor:pointer;_cursor:hand;text-decoration:none !important;border:0;white-space:nowrap;background:transparent url(http://s.nx.com/S2/p3/gnb/set_bt.gif) no-repeat right -399px;}
+.gnbWrapper .gnbSub ul li.subNav span {color:#cacbcc;padding-left:6px;}
+.gnbWrapper .gnbCurrent ul li.subNav button {background-position:right -499px;}
+	.gnbWrapper .gnbSubNavInfo ul {padding-top:9px;}
+	.gnbWrapper .gnbSubNavInfo li {height:15px;padding:0 15px 7px 9px;line-height:15px;color:#666666;white-space:nowrap;text-align:right;}
+.gnbSub .gnbSubNavFrame {display:none;position:absolute;top:19px;left:-34px;width:82px;height:118px;padding:1px;}
+.gnbCurrent .gnbSubNavFrame {display:block;}
+.gnbSub .gnbSubNavInfo {display:none;position:absolute;top:19px;left:-34px;width:82px;height:118px;border:1px solid #666666;background-color:#ffffff;text-align:left;z-index:40000;}
+.gnbCurrent .gnbSubNavInfo {display:block;}
